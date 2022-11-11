@@ -40,6 +40,9 @@
               <div class="modal-body">
                 <p>
                   <a href="{% url 'concluir_tarefa' tarefa.id %}" class="btn btn-success">Concluir</a>
+                  <a href="{% url 'excluir_tarefa' tarefa.id  %}" class="btn btn-danger">Excluir</a>
+                  <a href="{% url 'adiar_tarefa' tarefa.id  %}" class="btn btn-warning">Adiar</a>
+                  <a href="{% url 'editar_tarefa' tarefa.id  %}" class="btn btn-primary">Editar</a>
                 </p>
               </div>
             </div>
